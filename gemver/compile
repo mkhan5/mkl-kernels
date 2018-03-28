@@ -1,0 +1,2 @@
+gcc -O3 -DMKL_ILP64 -fopenmp -m64 -w  -I/home/gpu_users/ahmedw/Intelmkl/Intel/compilers_and_libraries_2016.1.150/linux/mkl/include -I ../../utilities gemver.c.c  ../../utilities/polybench.c -L/home/gpu_users/ahmedw/Intelmkl/Intel/compilers_and_libraries_2016.1.150/linux/mkl/lib/intel64 -lmkl_intel_ilp64 -lmkl_core -lmkl_gnu_thread -lm -o gemver
+

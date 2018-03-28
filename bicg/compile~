@@ -1,0 +1,2 @@
+gcc -DMKL_ILP64 -fopenmp -m64 -I/opt/intel/compilers_and_libraries_2016.1.150/linux/mkl/include gemv.c  -L/opt/intel/compilers_and_libraries_2016.1.150/linux/mkl/lib/intel64 -lmkl_intel_ilp64 -lmkl_core -lmkl_gnu_thread -lm -o gemv
+

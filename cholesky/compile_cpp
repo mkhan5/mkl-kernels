@@ -1,0 +1,2 @@
+g++  -DMKL_ILP64 -fopenmp -m64 -I/usr/lib64/R/include -I/opt/intel/compilers_and_libraries_2016.1.150/linux/mkl/include cholesky2.cpp  -L/opt/intel/compilers_and_libraries_2016.1.150/linux/mkl/lib/intel64 -lmkl_intel_ilp64 -lmkl_core -lmkl_gnu_thread -lm -o cholesky_cpp -lRmath
+

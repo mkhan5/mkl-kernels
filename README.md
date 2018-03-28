@@ -13,7 +13,7 @@ Serial C programs taken from Polybench 4.2.1 Benchmark and modified to run on mu
 * gemv		Vector Multiplication
 * gemver		Vector Multiplication and Matrix Addition
 * gesummv		Scalar, Vector and Matrix Multiplication
-* gramschmidt	Gram-Schmidt decomposition
+* QR (gramschmidt)	Gram-Schmidt decomposition
 * lu		LU decomposition
 * ludcmp		LU decomposition followed by Forward Substitution
 * mvt		Matrix Vector Product and Transpose
